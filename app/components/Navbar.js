@@ -3,7 +3,7 @@ import Logo from '../../public/companylogo.png';
 import dropdown from '../../public/down.png';
 import Image from 'next/image';
 import Link from 'next/link';
-import button from '../../public/button.png';
+import button from '../../public/Button.png';
 
 const Navbar = () => {
   return (
