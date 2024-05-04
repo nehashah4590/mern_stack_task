@@ -10,7 +10,7 @@ import instagram from '../../public/social_platforms/instagram.png';
 const Footer = () => {
     return (
         <div className='md:m-16 my-8 md:my-0 '>
-            <div className='h-auto md:h-[216px] w-full flex'>
+            <div className='h-auto md:h-[216px] w-full'>
                 <div className='w-[247px] mx-8'>
                     <Image src={logo} alt='company_logo' />
                     <p className='py-4 text-[#5F6D7E] text-sm'>Generate outside the box thinking with the possibility to targtet the low.</p>

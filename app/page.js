@@ -6,7 +6,7 @@ import icon2 from '../public/Features/Icon2.png';
 import icon3 from '../public/Features/Icon3.png';
 import icon4 from '../public/Features/Icon4.png';
 import icon5 from '../public/Features/Icon5.png';
-import demo from '../public/Left/photo.png';
+import demo from '../public/Left/Photo.png';
 import check from '../public/check.png';
 import arrow from '../public/arrow/Icon.png';
 import image from '../public/photo.png';
