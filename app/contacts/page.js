@@ -9,13 +9,9 @@ function CustomForm() {
     const [getintouch, setGetintouch] = useState();
     const [message, setMessage] = useState();
     const [isChecked, setIsChecked] = useState(false);
+    const [error, setError] = useState();
+    const [success, setSucces] = useState();
 
-    const handleChange = (event) => {
-        setFormData({
-            ...formData,
-            [event.target.name]: event.target.value,
-        })
-    }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -28,8 +24,15 @@ function CustomForm() {
             message:message
           });
           console.log(response.data);
+          setSucces(response.data);
+          setFirstname("");
+          setEmail("");
+          setPhonenumber("");
+          setGetintouch("");
+          setMessage("");
         } catch (error) {
           console.error('Error submitting form:', error);
+          setError(error.message);
         }
       };
 
@@ -83,7 +86,7 @@ function CustomForm() {
                             </label>
                             <input
                                 id="phonenumber"
-                                type="number"
+                                type="text"
                                 name="phonenumber"
                                 placeholder='+000'
                                 className="shadow-sm focus:ring-[#1C2534] rounded-md sm:text-sm px-3 py-2 bg-[#252D3C] text-[#A5ACBA] w-full md:w-[308px] lg:w-[37vw] h-[46px]"
@@ -149,6 +152,8 @@ function CustomForm() {
                         Submit
                     </button>
                 </div>
+                {success && <p className='py-4 text-green-500'>{success}</p>}
+                {error && <p className='py-4 text-red-500'>{error}</p>}
                      
             </form>
         </div>

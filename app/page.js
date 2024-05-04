@@ -71,7 +71,7 @@ export default function Home() {
               <Image src={icon2} alt="icons"/>
             </div>
             <h2 className="font-semibold text-xl py-2">Easier Work Orgainzation</h2>
-            <p className="text-[#5F6D7E]">Efficiently unleash cross-media information without
+            <p className="text-[#5F6D7E] pb-6">Efficiently unleash cross-media information without
               cross-media value. Quickly timely deliverables for
               real-time schemas. </p>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
               <Image src={icon4} alt="icons"/>
             </div>
             <h2 className="font-semibold text-xl py-2">Marketing Analytics</h2>
-            <p className="text-[#5F6D7E]">Phosfluorescently engage worldwide methodologies with web-enabled
+            <p className="text-[#5F6D7E] pb-6">Phosfluorescently engage worldwide methodologies with web-enabled
               Interactively coordinate. </p>
           </div> 
           <div className="h-[200x] w-auto lg:hidden">
@@ -89,7 +89,7 @@ export default function Home() {
               <Image src={icon3} alt="icons"/>
             </div>
             <h2 className="font-semibold text-xl py-2">Easy Integration</h2>
-            <p className="text-[#5F6D7E]">Completely pursue scalable customer try through potentialities. 
+            <p className="text-[#5F6D7E] pb-6">Completely pursue scalable customer try through potentialities. 
             Pontificate portals installed. Efficiently unleash information. </p>
           </div>
            <div className="h-[200x] w-auto lg:hidden">
@@ -97,7 +97,7 @@ export default function Home() {
               <Image src={icon5} alt="icons"/>
             </div>
             <h2 className="font-semibold text-xl py-2">Workflow Builder</h2>
-            <p className="text-[#5F6D7E]">Collaboratively administrate turnkey service channels whereas virtual e-tailers. 
+            <p className="text-[#5F6D7E] ">Collaboratively administrate turnkey service channels whereas virtual e-tailers. 
             This  is objectively scalable metrics whereas. </p>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function Home() {
 
       {/* Logo section*/}
       <div className="w-full md:h-[160px] h-auto flex flex-col md:flex md:flex-row justify-center items-center bg-[#2B63D9] md:space-x-8 space-y-8 py-8">
-          <Image src={twilio} alt="twilio" className="md:mt-6"/>   
+          <Image src={twilio} alt="twilio" className="md:mt-8"/>   
           <Image src={slack} alt="slack"/>   
           <Image src={google} alt="google"/>   
           <Image src={paypal} alt="paypal"/>   
