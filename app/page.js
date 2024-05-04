@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import icon from '../public/Features/icon.png';
-import icon1 from '../public/Features/icon (1).png';
-import icon2 from '../public/Features/icon (2).png';
-import icon3 from '../public/Features/icon (3).png';
-import icon4 from '../public/Features/icon (4).png';
-import icon5 from '../public/Features/icon (5).png';
+import icon1 from '../public/Features/icon1.png';
+import icon2 from '../public/Features/icon2.png';
+import icon3 from '../public/Features/icon3.png';
+import icon4 from '../public/Features/icon4.png';
+import icon5 from '../public/Features/icon5.png';
 import demo from '../public/Left/photo.png';
 import check from '../public/check.png';
 import arrow from '../public/arrow/icon.png';
